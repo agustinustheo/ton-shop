@@ -5,7 +5,7 @@ A React-based food ordering application that integrates with Telegram Bot API to
 ## Prerequisites
 
 - Node.js (v14 or higher)
-- npm or yarn
+- pnpm or yarn
 - Telegram account
 - A domain/hosting for the web application
 
@@ -40,7 +40,7 @@ Bot/
 ```bash
 git clone https://github.com/agustinustheo/food-ordering-bot.git
 cd food-ordering-bot
-npm install
+pnpm install
 ```
 
 ### 2. Create Telegram Bot
@@ -67,7 +67,7 @@ WEB_LINK=your_deployed_app_url
 
 Run the React application locally:
 ```bash
-npm start
+pnpm start
 ```
 
 Start the Telegram bot:
@@ -79,7 +79,7 @@ node Bot/bot.js
 
 Build the React app:
 ```bash
-npm run build
+pnpm run build
 ```
 
 Deploy to your hosting service (e.g., Netlify):
